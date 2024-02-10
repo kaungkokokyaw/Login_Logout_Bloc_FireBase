@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "853838645254",
+    "project_id": "loginlogoutbloc",
+    "storage_bucket": "loginlogoutbloc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:853838645254:android:1ccc604e34dec000015b87",
+        "android_client_info": {
+          "package_name": "com.example.login_logout"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6GNjNDDM7kYsLVGuqSevVPXv-pSXeS2U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
