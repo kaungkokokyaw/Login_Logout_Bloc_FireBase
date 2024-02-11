@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:login_logout/bloc/sign_in_bloc/sign_in_bloc.dart';
+import 'package:lottie/lottie.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
@@ -14,7 +15,9 @@ class _HomeScreenState extends State<HomeScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        backgroundColor: Colors.grey,
         title: const Text('Welcome you are in !'),
+        centerTitle: true,
         actions: [
           IconButton(
             onPressed: () {
@@ -23,6 +26,15 @@ class _HomeScreenState extends State<HomeScreen> {
             icon: const Icon(Icons.login),
           ),
         ],
+      ),
+      body: const Center(
+        child: Text(
+          'HELLO WELCOME TO Login App',
+          style: TextStyle(
+            fontWeight: FontWeight.bold,
+            fontSize: 20,
+          ),
+        ),
       ),
     );
   }
